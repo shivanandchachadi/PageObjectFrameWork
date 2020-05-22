@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-19T18:02:38 IST" name="Default suite" finished-at="2020-05-19T18:03:13 IST" duration-ms="35034">
+    <groups>
+    </groups>
+    <test started-at="2020-05-19T18:02:38 IST" name="Default test" finished-at="2020-05-19T18:03:13 IST" duration-ms="35034">
+      <class name="objectRepo.PageObject">
+        <test-method is-config="true" signature="extentReprots()[pri:0, instance:objectRepo.PageObject@5f9b2141]" started-at="2020-05-19T18:02:38 IST" name="extentReprots" finished-at="2020-05-19T18:02:39 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReprots -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:objectRepo.PageObject@5f9b2141]" started-at="2020-05-19T18:02:40 IST" name="setup" finished-at="2020-05-19T18:02:54 IST" duration-ms="14359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:objectRepo.PageObject@5f9b2141]" started-at="2020-05-19T18:02:54 IST" name="loginPage" data-provider="datasetup" finished-at="2020-05-19T18:02:56 IST" duration-ms="1889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mohan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:objectRepo.PageObject@5f9b2141]" started-at="2020-05-19T18:02:56 IST" name="setup" finished-at="2020-05-19T18:03:06 IST" duration-ms="10028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginPage(java.lang.String, java.lang.String)[pri:0, instance:objectRepo.PageObject@5f9b2141]" started-at="2020-05-19T18:03:06 IST" name="loginPage" data-provider="datasetup" finished-at="2020-05-19T18:03:12 IST" duration-ms="5550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chidu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:objectRepo.PageObject@5f9b2141]" started-at="2020-05-19T18:03:12 IST" name="endTest" finished-at="2020-05-19T18:03:13 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- objectRepo.PageObject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
